@@ -55,7 +55,7 @@ header a{
 input {
   border: 3px solid gold;
   padding: 9px;
-  width: 75%;
+  width: auto;
 }
 
 
@@ -65,5 +65,4 @@ button {
   background: green:
   color: white;
   padding: 9px;
-  float: right;
 }

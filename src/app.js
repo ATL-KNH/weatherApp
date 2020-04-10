@@ -71,11 +71,8 @@ app.get('/weather', (req, res) => {
           location,
           address: req.query.address,
         })
-
       })
-
   })
-
 })
 
 app.get('/help/*', (req, res) => {
@@ -95,5 +92,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-  
+  console.log('Listening on port ' + port)
 })
